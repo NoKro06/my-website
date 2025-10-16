@@ -53,3 +53,19 @@ footer
     float: right;
     clip-path: inset(10% 5% 15% 5%);
 }
+
+.resume_image_row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.resume_image_row img
+{
+    width: 500px;
+    border-radius: 10px;
+}
