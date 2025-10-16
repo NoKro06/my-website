@@ -17,6 +17,7 @@ header
     background: #1c3738;
     color: #75a99a;
     text-align: center;
+    width: auto;
     padding: 1rem 0;
 }
 
@@ -43,6 +44,13 @@ footer
     color: #d77a61;
     text-align: center;
     padding: 0.5rem;
+}
+
+.img
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .profile_pic 
