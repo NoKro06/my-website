@@ -2,37 +2,54 @@
     Color palette
     Gray: #262626, Dark Green: #1C3738,
     Green: #75A99A, Red: #D77A61,
-    White: F#EEFDD
+    White: #FEEFDD
 */
-body {
-  font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
-  background: #;
-  color: #111;
-  margin: 0;
+body 
+{
+    font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    background: #FEEFDD;
+    color: #262626;
+    margin: 0;
 }
 
-header {
-  background: #1c3738;
-  color: #75a99a;
-  text-align: center;
-  padding: 1rem 0;
+header 
+{
+    background: #1c3738;
+    color: #75a99a;
+    text-align: center;
+    padding: 1rem 0;
 }
 
-nav a {
-  color: #d77a61;
-  text-decoration: none;
-  margin: 0 10px;
+nav a 
+{
+    color: #d77a61;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+main 
+{
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-footer {
-  background: #262626;
-  color: #d77a61;
-  text-align: center;
-  padding: 1rem;
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #262626;
+    color: #d77a61;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.profile_pic 
+{
+    display: block;
+    margin: 0px 0 10px 20px;
+    width: 350px;
+    float: right;
+    clip-path: inset(10% 5% 15% 5%);
 }
